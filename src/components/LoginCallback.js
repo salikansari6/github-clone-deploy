@@ -10,7 +10,7 @@ const LoginCallback = () => {
             'code':code
         })   
         
-       getToken("https://github.com/login/oauth/access_token",params).then((token) =>{
+       getToken("https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token",params).then((token) =>{
            sessionStorage.setItem("access_token",token)
         //    window.location.pathname="/search-screen"
             localStorage.removeItem('formState')
