@@ -5,7 +5,7 @@ import "./Login.css"
 const Login = () => {
     return (
         <div className="buttonWrap">
-         <a className="button" href="https://github.com/login/oauth/authorize?client_id=bc8937aa7cf8f0b7e106">
+         <a className="button" href="https://github.com/login/oauth/authorize?client_id=41143e99a909b42b5823">
                 <GitHubIcon />  Login with <b>Github</b> </a>
         </div>
     )
