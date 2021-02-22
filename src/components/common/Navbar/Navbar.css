@@ -1,0 +1,32 @@
+.navbar{
+    background:#1D1C27;
+    color:white;
+    z-index: 200;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-form{
+    width: 90%;
+}
+
+.animate{
+    
+    animation-name: move-to-nav;
+    animation-duration: .5s;    
+
+}
+
+
+@keyframes move-to-nav{
+    0%{
+        transform: translateX(-20vw) translateY(50vh);
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+
+}

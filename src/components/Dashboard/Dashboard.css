@@ -1,0 +1,28 @@
+.dashboard::before{
+    content: "";
+    position: absolute;
+    background:#1D1C27;
+    height: 100vh;
+    width: 100vw;
+    animation-name: move-top ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 100;
+}
+
+@keyframes move-top{
+    0%{
+        transform:translateY(0);
+    }
+
+    100%{
+        transform: translateY(-150vh);
+    }
+}
+
+
+
+.followers{
+    display: flex;
+    align-items: flex-start;
+}

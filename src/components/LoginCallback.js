@@ -1,7 +1,6 @@
 import React from 'react'
-
-import {getToken} from '../services/api'
-
+import {getToken} from '../services/api';
+import redirect from '../utilities/redirect';
 const LoginCallback = () => {
     React.useEffect(() =>{
         const code =  window.location.search.split("?code=")[1]
@@ -13,8 +12,9 @@ const LoginCallback = () => {
         
        getToken("https://github.com/login/oauth/access_token",params).then((token) =>{
            sessionStorage.setItem("access_token",token)
-           window.location.pathname="/dashboard"
-           localStorage.removeItem('formState')
+        //    window.location.pathname="/search-screen"
+            localStorage.removeItem('formState')
+            redirect('/search-screen')
        })
        .catch(err => console.log(err))
        

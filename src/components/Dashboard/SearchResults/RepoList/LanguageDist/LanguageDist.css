@@ -1,0 +1,14 @@
+.language-dist{
+    margin-left: auto;
+    /* align-self: flex-start; */
+    position: relative;
+  }
+
+.language-dist__button{
+  padding : .6rem;
+  border: none;
+  font-weight: 400;
+  color:#86F3F3;
+  background:#1D1C27 ;
+  border-radius: .5rem;
+}

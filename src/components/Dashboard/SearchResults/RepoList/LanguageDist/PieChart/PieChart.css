@@ -1,0 +1,49 @@
+.pie-chart{
+    background:#1D1C27;
+    height:250px;
+    width: 400px;
+    position:absolute;
+    right: 0;
+    z-index: 300;
+    padding:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -5px 5px 9px  rgb(160, 158, 158);
+    animation:fade-in .5s;
+}
+
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.legend{
+    color:white;
+    font-size:.7rem;
+    font-weight:600;
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.legend__lang-color{
+    height: 6px;
+    margin-right:.6rem ;
+    width: 35px;
+    border-radius: 6px;
+    /* background-color: white; */
+}

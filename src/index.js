@@ -2,10 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import FormContextProvider from './contexts/FormContext';
+import DebouncedFormContextProvider from './contexts/DebouncedFormContext'
+import LoginContextProvider from './contexts/LoginContext';
 
 ReactDOM.render(
-    <App />,
+  <FormContextProvider>
+    <DebouncedFormContextProvider>
+      <LoginContextProvider>
+        <App />
+      </LoginContextProvider>
+    </DebouncedFormContextProvider>
+  </FormContextProvider>
+    ,
   document.getElementById('root')
 );
 

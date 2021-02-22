@@ -8,7 +8,7 @@ export const fetchRepositories = (parameters) =>{
             }
         })
         .then(res => res.json())
-        .then(data =>resolve(data.items))
+        .then(data =>resolve(data))
         .catch(err=>reject(err))
     })
 }
@@ -24,7 +24,7 @@ export const fetchUsers = (parameters) =>{
             }    
         })
         .then(res => res.json())
-        .then(data =>resolve(data.items))
+        .then(data =>resolve(data))
         .catch(err=>reject(err))
 })
 }

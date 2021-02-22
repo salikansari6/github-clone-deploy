@@ -3,9 +3,6 @@ import GitHubIcon from '../../assets/icons/GitHubIcon'
 import "./Login.css"
 
 const Login = () => {
-
-
-
     return (
         <div className="buttonWrap">
          <a className="button" href="https://github.com/login/oauth/authorize?client_id=bc8937aa7cf8f0b7e106">

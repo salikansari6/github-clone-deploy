@@ -1,0 +1,12 @@
+.custom-select{
+   background: #1D1C27;
+   color:#86f3f3;
+   border-radius:.8rem;
+   /* appearance: none; */
+   padding: .5rem;
+}
+
+
+option{
+padding:.5rem;
+}

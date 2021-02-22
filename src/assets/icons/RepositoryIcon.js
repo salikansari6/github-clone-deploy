@@ -1,8 +1,10 @@
 import React from 'react'
 
 const RepositoryIcon = () => {
-    return (
-        <svg className="octicon octicon-repo UnderlineNav-octicon hide-sm" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fillRule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="27.213" height="25" viewBox="0 0 27.213 35.244">
+            <path id="Repository-595b40b85ba036ed117de041" d="M9.268,2A2.27,2.27,0,0,0,7,4.268V31.48a2.27,2.27,0,0,0,2.268,2.268h.756V32.236H9.268a.757.757,0,0,1-.756-.756V27.7H32.7v3.78a.756.756,0,0,1-.756.756H20.606v1.512H31.945a2.27,2.27,0,0,0,2.268-2.268V4.268A2.27,2.27,0,0,0,31.945,2Zm3.024,4.535h3.024V9.559H12.291Zm0,6.8h3.024v3.024H12.291Zm0,6.8h3.024v3.024H12.291Zm-.756,9.071v8.031l3.78-1.89,3.78,1.89V29.213Z" transform="translate(-7 -2)" fill="#1d1c27" opacity="0.9"/>
+        </svg>
     )
 }
 

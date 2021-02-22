@@ -1,7 +1,7 @@
 const formatNumber = (number) =>{
     if(number.toString().length === 7)
     {
-      return number.toString().slice(0,1)+"M"
+      return number.toString().split('').slice(0,2).join(".")+"M"
     }
     if(number.toString().length === 6)
     {

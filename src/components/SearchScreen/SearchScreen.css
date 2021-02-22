@@ -1,0 +1,17 @@
+.search-screen{
+    background: #1D1C27;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    text-align: center;
+}
+
+.hero__tag{
+    margin: 1rem;
+}
