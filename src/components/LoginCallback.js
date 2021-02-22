@@ -5,8 +5,8 @@ const LoginCallback = () => {
     React.useEffect(() =>{
         const code =  window.location.search.split("?code=")[1]
         const params = new URLSearchParams({
-            'client_id':'bc8937aa7cf8f0b7e106',
-            'client_secret':'19b9deb912c11318b5638bf86b075cef59ec1388',
+            'client_id':'41143e99a909b42b5823',
+            'client_secret':'ce15a1d88c653532b30e15c1af2d6e4edb51b79b',
             'code':code
         })   
         
