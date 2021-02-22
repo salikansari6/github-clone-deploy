@@ -6,11 +6,11 @@ const LoginCallback = () => {
         const code =  window.location.search.split("?code=")[1]
         const params = new URLSearchParams({
             'client_id':'41143e99a909b42b5823',
-            'client_secret':'ce15a1d88c653532b30e15c1af2d6e4edb51b79b',
+            'client_secret':'b3d3d3241d057fe3bbb1da5d85083c1ea2ee2297',
             'code':code
         })   
         
-       getToken("https://github.com/login/oauth/access_token",params).then((token) =>{
+       getToken("https://thingproxy.freeboard.io/fetch/https://github.com/login/oauth/access_token",params).then((token) =>{
            sessionStorage.setItem("access_token",token)
         //    window.location.pathname="/search-screen"
             localStorage.removeItem('formState')
