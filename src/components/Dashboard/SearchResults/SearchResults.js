@@ -93,7 +93,7 @@ const SearchResults = () => {
     
 
     return(
-        <div className="search-results" onScroll={handleScroll} onTouchMove={handleScroll}>
+        <div className="search-results"  onTouchMove={handleScroll} >
             <div className="results__header">
                 <div className="no-of-results h2"><b>{totalResults && formatNumber(totalResults)}</b> {choice} found</div>
                 <Sort choice={choice} />
