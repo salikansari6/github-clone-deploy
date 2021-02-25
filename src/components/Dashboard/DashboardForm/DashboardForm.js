@@ -27,6 +27,7 @@ const DashboardForm = ({homePage}) => {
         });
         setPage(1)
         if(homePage){
+            localStorage.removeItem('formState')
             setGoToDashBoard(true)
         }
         else{
