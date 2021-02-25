@@ -3,6 +3,8 @@ import './Navbar.css'
 import BrandLogo from '../../../assets/logos/BrandLogo';
 import DashboardForm from '../../Dashboard/DashboardForm/DashboardForm';
 import { LoginContext } from '../../../contexts/LoginContext';
+import Link from '../../Link';
+
 
 const Navbar = () => {
 
@@ -12,7 +14,9 @@ const Navbar = () => {
         <nav className="navbar navbar-dark py-3">
             <div className="container">
                 <span className="navbar-brand">
-                <BrandLogo/>
+                <Link to={isLoggedIn ? '/search-screen' : '/'}>
+                    <BrandLogo/>
+                </Link>
                 </span>
                 {
                 isLoggedIn &&
