@@ -14,7 +14,6 @@ const PieChart = ({languages}) => {
             const total = Object.values(languages).reduce((total, number) =>{
                 return total + number
             },0)
-            console.log(total)
 
             Object.keys(languages).forEach(function(key, index) {
                 langWithPercentage.push({ name : [key][0],
